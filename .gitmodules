@@ -1,0 +1,3 @@
+[submodule "Class/Proj5LinkedList/TeamLinkedList"]
+	path = Class/Proj5LinkedList/TeamLinkedList
+	url = git@github.com:DaniGuevara09/TeamLinkedList.git
