@@ -7,3 +7,6 @@
 [submodule "Project1/Project1PriorityQueues"]
 	path = Project1/Project1PriorityQueues
 	url = git@github.com:DaniGuevara09/Project1priorityqueues.git
+[submodule "Project2/Project2"]
+	path = Project2/Project2
+	url = git@github.com:DaniGuevara09/Project2.git
