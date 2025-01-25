@@ -4,3 +4,6 @@
 [submodule "PrograIII"]
 	path = PrograIII
 	url = git@github.com:DaniGuevara09/PrograIII.git
+[submodule "Project1/Project1PriorityQueues"]
+	path = Project1/Project1PriorityQueues
+	url = git@github.com:DaniGuevara09/Project1priorityqueues.git
