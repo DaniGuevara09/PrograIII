@@ -1,0 +1,18 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "/home/dani/Documents/Uni/ProgrammingIII/Evaluations/Evaluation1/cmake-build-debug",
+	"dir-cur-src" : "/home/dani/Documents/Uni/ProgrammingIII/Evaluations/Evaluation1",
+	"dir-top-bld" : "/home/dani/Documents/Uni/ProgrammingIII/Evaluations/Evaluation1/cmake-build-debug",
+	"dir-top-src" : "/home/dani/Documents/Uni/ProgrammingIII/Evaluations/Evaluation1",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/dani/Documents/Uni/ProgrammingIII/Evaluations/Evaluation1/cmake-build-debug/CMakeFiles/Evaluation1.dir"
+}

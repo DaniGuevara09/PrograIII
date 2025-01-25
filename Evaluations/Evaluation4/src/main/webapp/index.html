@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dish Management</title>
+    <style>
+        h1 {
+            text-align: center;
+            padding: 20px 0;
+            margin: 0;
+        }
+
+        table {
+            width: 90%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        @media (max-width: 768px) {
+            table {
+                width: 100%;
+                font-size: 14px;
+            }
+
+            th, td {
+                padding: 8px 10px;
+            }
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Dish Management</h1>
+
+    <table id="dishTable">
+        <thead>
+        <tr>
+            <th>ID Dish</th>
+            <th>Name</th>
+            <th>Calories</th>
+            <th>Vegetarian</th>
+            <th>Value</th>
+            <th>Comments</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+<script>
+    function loadDishes() {
+        const url = '/dish-servlet?option=1';
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                const tableBody = document.querySelector('#dishTable tbody');
+                tableBody.innerHTML = '';
+                data.forEach(dish => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${dish.idDish}</td>
+                        <td>${dish.name}</td>
+                        <td>${dish.calories}</td>
+                        <td>${dish.isVegetarian}</td>
+                        <td>${dish.value}</td>
+                        <td>${dish.comments}</td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+            })
+            .catch(error => console.error('Error fetching dishes:', error));
+    }
+    window.onload = loadDishes;
+</script>
+
+</body>
+</html>
