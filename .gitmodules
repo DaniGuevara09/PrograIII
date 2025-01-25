@@ -10,3 +10,6 @@
 [submodule "Project2/Project2"]
 	path = Project2/Project2
 	url = git@github.com:DaniGuevara09/Project2.git
+[submodule "Workshop2/LinkedListWorkshop"]
+	path = Workshop2/LinkedListWorkshop
+	url = git@github.com:DaniGuevara09/LinkedListWorkshop.git
