@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/javafx"
+            xmlns="http://javafx.com/fxml"
+            fx:controller="co.edu.uptc.project1priorityqueues.view.MainController"
+            id="root"
+            prefHeight="1080.0"
+            prefWidth="1920.0">
+    
+    <!-- Top Section: Title -->
+    <top>
+        <Label fx:id="titleLabel" id="title" text="Don Copito Medicines" BorderPane.alignment="CENTER">
+            <BorderPane.margin>
+                <Insets top="0" right="0" bottom="30" left="0" />
+            </BorderPane.margin>
+        </Label>
+    </top>
+    
+    <!-- Center Section: VBox (Turn Info) and Table -->
+    <center>
+        <HBox fx:id="centerHBox" alignment="CENTER" spacing="180" maxHeight="696.0" BorderPane.alignment="CENTER">
+            <!-- VBox for Turn Info -->
+            <VBox fx:id="turnVBox" alignment="CENTER" spacing="30">
+                <children>
+                    <Label fx:id="turnTitleLabel" id="turnTitle" text="Turn" prefWidth="600.0" prefHeight="90.0" alignment="CENTER"/>
+                    <Label fx:id="turnLabel" id="turn" text="-" prefWidth="600.0" prefHeight="360.0" alignment="CENTER"/>
+                </children>
+            </VBox>
+            <!-- Table -->
+            <TableView fx:id="table" prefWidth="600.0" maxHeight="660.0" BorderPane.alignment="CENTER">
+                <columns>
+                    <TableColumn text="Waiting List" fx:id="turn"/>
+                </columns>
+                <HBox.margin>
+                    <Insets top="30" right="0" bottom="30" left="0"/>
+                </HBox.margin>
+            </TableView>
+        </HBox>
+    </center>
+    
+    <!-- Bottom Section: Add Turn Button -->
+    <bottom>
+        <Button fx:id="addTurnBtn" text="Add Turn" id="button" alignment="CENTER_RIGHT" BorderPane.alignment="CENTER_RIGHT">
+            <BorderPane.margin>
+                <Insets top="30" right="60" bottom="30" left="0"/>
+            </BorderPane.margin>
+        </Button>
+    </bottom>
+</BorderPane>

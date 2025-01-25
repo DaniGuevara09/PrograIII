@@ -16,3 +16,6 @@
 [submodule "Workshop3/Graphs-activity"]
 	path = Workshop3/Graphs-activity
 	url = git@github.com:Vals2512/Graphs-activity.git
+[submodule "Workshop4/ThreadsWorkshop4"]
+	path = Workshop4/ThreadsWorkshop4
+	url = git@github.com:DaniGuevara09/ThreadsWorkshop4.git
