@@ -1,0 +1,3 @@
+[submodule "Workshop1/TallerPrograIII"]
+	path = Workshop1/TallerPrograIII
+	url = git@github.com:DaniGuevara09/TallerPrograIII.git
