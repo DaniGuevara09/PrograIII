@@ -1,0 +1,10 @@
+# ninja log v6
+3	44	1726777163734590013	CMakeFiles/Proj6LinkedList.dir/Node.cpp.o.ddi	259505305946b3c0
+3	96	1726777163734590013	CMakeFiles/Proj6LinkedList.dir/LinkedList.cpp.o.ddi	94d6b89532e77912
+2	142	1726777163733590010	CMakeFiles/Proj6LinkedList.dir/main.cpp.o.ddi	45e9ab653b91accb
+142	154	1726777163883590570	CMakeFiles/Proj6LinkedList.dir/CXX.dd	52cffa6625ba0e0d
+142	154	1726777163883590570	/home/dani/Documents/Uni/ProgrammingIII/Class/Proj6LinkedList/cmake-build-debug/CMakeFiles/Proj6LinkedList.dir/CXXModules.json	52cffa6625ba0e0d
+142	154	1726777163883590570	CMakeFiles/Proj6LinkedList.dir/main.cpp.o.modmap	52cffa6625ba0e0d
+142	154	1726777163883590570	CMakeFiles/Proj6LinkedList.dir/Node.cpp.o.modmap	52cffa6625ba0e0d
+142	154	1726777163883590570	CMakeFiles/Proj6LinkedList.dir/LinkedList.cpp.o.modmap	52cffa6625ba0e0d
+154	845	1726777163885590577	CMakeFiles/Proj6LinkedList.dir/main.cpp.o	34c876bcc548e00e

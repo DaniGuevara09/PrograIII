@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles/Proj6LinkedList.dir/LinkedList.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

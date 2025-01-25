@@ -1,0 +1,3 @@
+/home/dani/Documents/Uni/ProgrammingIII/Class/proj4Associations/cmake-build-debug/CMakeFiles/proj4Associations.dir
+/home/dani/Documents/Uni/ProgrammingIII/Class/proj4Associations/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dani/Documents/Uni/ProgrammingIII/Class/proj4Associations/cmake-build-debug/CMakeFiles/rebuild_cache.dir

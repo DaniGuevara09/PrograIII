@@ -1,0 +1,7 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/Proj6LinkedList.dir/main.cpp.o: dyndep
+
+build CMakeFiles/Proj6LinkedList.dir/Node.cpp.o: dyndep
+
+build CMakeFiles/Proj6LinkedList.dir/LinkedList.cpp.o: dyndep
+

@@ -1,0 +1,3 @@
+/home/dani/Documents/Uni/ProgrammingIII/Class/2.IntroductionToCpp/projectCPP/cmake-build-debug/CMakeFiles/projectCPP.dir
+/home/dani/Documents/Uni/ProgrammingIII/Class/2.IntroductionToCpp/projectCPP/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dani/Documents/Uni/ProgrammingIII/Class/2.IntroductionToCpp/projectCPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+/home/dani/Documents/Uni/BEGIN/cmake-build-debug/CMakeFiles/BEGIN.dir
+/home/dani/Documents/Uni/BEGIN/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dani/Documents/Uni/BEGIN/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo de desarrollo Web</title>
+</head>
+<body>
+  <h1>Bienvenidos</h1>
+  lorem ipsum at dolor es
+  <script>
+      const xhr = new XMLHttpRequest()
+
+      xhr.open("GET","servlet-example",true)
+
+      xhr.onreadystatechange = ()=>{
+          if ( xhr.readyState === 4 && xhr.status === 200 ){
+              console.log( xhr.responseText )
+          }
+      }
+      xhr.send()
+  </script>
+</body>
+</html>
