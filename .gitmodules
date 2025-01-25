@@ -13,3 +13,6 @@
 [submodule "Workshop2/LinkedListWorkshop"]
 	path = Workshop2/LinkedListWorkshop
 	url = git@github.com:DaniGuevara09/LinkedListWorkshop.git
+[submodule "Workshop3/Graphs-activity"]
+	path = Workshop3/Graphs-activity
+	url = git@github.com:Vals2512/Graphs-activity.git
