@@ -1,0 +1,3 @@
+/home/dani/Documents/Uni/ProgrammingIII/Study/Evaluation1/cmake-build-debug/CMakeFiles/Evaluation1.dir
+/home/dani/Documents/Uni/ProgrammingIII/Study/Evaluation1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dani/Documents/Uni/ProgrammingIII/Study/Evaluation1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
